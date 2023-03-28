@@ -25,6 +25,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <title>Movie</title>
   </head>
   <body>
@@ -32,7 +38,7 @@
       <h1 class="logo">LoungeMovie</h1>
       <nav class="nav">
         <ul class="menu-list">
-          <li class="menu-list-item">Home</li>
+          <li class="menu-list-item active">Home</li>
           <li class="menu-list-item">Movies</li>
           <li class="menu-list-item">Series</li>
           <li class="menu-list-item">Popular</li>
@@ -41,11 +47,145 @@
         </ul>
       </nav>
       <div class="profile-container">
+        <div class="search-container">
+          <i class="fa-solid fa-magnifying-glass search-glass"></i>
+          <p class="search">Search</p>
+        </div>
         <i class="fa-solid fa-user"> </i>
         <p class="login">Log In</p>
+        <div class="toggle">
+          <i class="fa-solid fa-moon toggles"></i>
+          <i class="fa-solid fa-sun toggles"></i>
+          <div class="toggle-ball"></div>
+        </div>
       </div>
     </section>
-    <div class="sidebar"></div>
+    <div class="sidebar">
+      <div class="movies">
+        <p class="movie active">All Movies</p>
+        <p class="movie">Action</p>
+        <p class="movie">Comedy</p>
+        <p class="movie">Drama</p>
+        <p class="movie">Fantasy</p>
+        <p class="movie">Horror</p>
+        <p class="movie">Mystery</p>
+        <p class="movie">Romance</p>
+        <p class="movie">Thriller</p>
+        <p class="movie">Musical</p>
+        <p class="movie">Sport</p>
+        <p class="movie">Science Fiction</p>
+        <p class="movie">Adventure</p>
+        <p class="movie">Holiday</p>
+        <p class="movie">Documentary</p>
+        <p class="movie">Family</p>
+        <p class="movie">Crime</p>
+        <p class="movie">Foreign Language</p>
+        <p class="movie">Classics</p>
+        <p class="movie">Biography</p>
+      </div>
+    </div>
+    <section class="container">
+      <div class="featured-movies">
+        <div class="content-container">
+          <img src="./images/tangled.png" alt="tangled" class="movie-logo" />
+          <div class="content">
+            <p class="genre">
+              Family, Fantasy, Animation, Action-Adventure, Musical
+            </p>
+            <div class="buttons">
+              <button class="featured-button">Trailer</button>
+              <button class="featured-button">Watch</button>
+            </div>
+            <p class="featured-desc">
+              When the kingdom's most wanted—and most charming—bandit, Flynn
+              Rider (Zachary Levi), hides out in a mysterious tower, he's taken
+              hostage by Rapunzel (Mandy Moore), a beautiful and feisty
+              tower-bound teen with 70 feet of magical, golden hair. Flynn's
+              curious captor, who's looking for her ticket out of the tower
+              where she's been locked away for years, strikes a deal with the
+              handsome thief, and the unlikely duo sets off on an action-packed
+              escapade, complete with a super-cop horse (Maximus), an
+              over-protective chameleon (Pascal), and a gruff gang of pub thugs.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="movie-list-container">
+        <h1 class="most-popular">Most Popular</h1>
+        <div class="movie-list">
+          <div class="movie-list-item">
+            <img src="./images/moive1.jpeg" alt="movie1" class="movie-image" />
+            <span title="movie-title">The Magician's Elephant</span>
+            <div class="hover">
+              <span title="movie-title-hover">The Magician's Elephant</span>
+            </div>
+            <!-- <p class="moive-desc">
+              he story follows an orphan boy named Peter (Noah Jupe) who loses
+              his sister at a very young age. Peter has always wanted to meet
+              again with his sister but she has been lost since a newborn. Both
+              of his parents passed away in a war and, ever since then, a strict
+              and old soldier has taken care of Peter.
+            </p> !-->
+          </div>
+          <div class="movie-list-item">
+            <img src="./images/moive1.jpeg" alt="movie1" class="movie-image" />
+            <span title="movie-title">The Magician's Elephant</span>
+            <!-- <p class="moive-desc">
+              he story follows an orphan boy named Peter (Noah Jupe) who loses
+              his sister at a very young age. Peter has always wanted to meet
+              again with his sister but she has been lost since a newborn. Both
+              of his parents passed away in a war and, ever since then, a strict
+              and old soldier has taken care of Peter.
+            </p> !-->
+          </div>
+          <div class="movie-list-item">
+            <img src="./images/moive1.jpeg" alt="movie1" class="movie-image" />
+            <span title="movie-title">The Magician's Elephant</span>
+            <!-- <p class="moive-desc">
+              he story follows an orphan boy named Peter (Noah Jupe) who loses
+              his sister at a very young age. Peter has always wanted to meet
+              again with his sister but she has been lost since a newborn. Both
+              of his parents passed away in a war and, ever since then, a strict
+              and old soldier has taken care of Peter.
+            </p> !-->
+          </div>
+          <div class="movie-list-item">
+            <img src="./images/moive1.jpeg" alt="movie1" class="movie-image" />
+            <span title="movie-title">The Magician's Elephant</span>
+            <!-- <p class="moive-desc">
+              he story follows an orphan boy named Peter (Noah Jupe) who loses
+              his sister at a very young age. Peter has always wanted to meet
+              again with his sister but she has been lost since a newborn. Both
+              of his parents passed away in a war and, ever since then, a strict
+              and old soldier has taken care of Peter.
+            </p> !-->
+          </div>
+          <div class="movie-list-item">
+            <img src="./images/moive1.jpeg" alt="movie1" class="movie-image" />
+            <span title="movie-title">The Magician's Elephant</span>
+            <!-- <p class="moive-desc">
+              he story follows an orphan boy named Peter (Noah Jupe) who loses
+              his sister at a very young age. Peter has always wanted to meet
+              again with his sister but she has been lost since a newborn. Both
+              of his parents passed away in a war and, ever since then, a strict
+              and old soldier has taken care of Peter.
+            </p> !-->
+          </div>
+          <div class="movie-list-item">
+            <img src="./images/moive1.jpeg" alt="movie1" class="movie-image" />
+            <span title="movie-title">The Magician's Elephant</span>
+            <!-- <p class="moive-desc">
+              he story follows an orphan boy named Peter (Noah Jupe) who loses
+              his sister at a very young age. Peter has always wanted to meet
+              again with his sister but she has been lost since a newborn. Both
+              of his parents passed away in a war and, ever since then, a strict
+              and old soldier has taken care of Peter.
+            </p> !-->
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="script.js"></script>
   </body>
 </html>
