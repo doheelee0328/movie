@@ -214,11 +214,18 @@
   font-size: 40px;
   padding-bottom: 20px;
 }
+.wrapper {
+  position: relative;
+  transform: translateX(0px);
+  overflow: hidden;
+}
+
 .movie-list {
   display: flex;
   flex-direction: row;
   gap: 30px;
   height: 350px;
+  transition: 1s all ease-in-out;
 }
 
 .movie-image {
@@ -242,10 +249,10 @@
 
 .movie-time {
   background-color: rgb(97 97 97 / 50%);
-  width: auto;
+  width: 100px;
   height: auto;
   position: absolute;
-  top: 52%;
+  top: 18%;
   margin-left: 40px;
   display: flex;
   gap: 8px;
@@ -259,7 +266,7 @@
   height: auto;
   font-size: 15px;
   position: absolute;
-  top: 58%;
+  top: 28%;
   margin-left: 40px;
   opacity: 0;
   transition: 0.8s all ease-in-out;
@@ -269,7 +276,7 @@
   height: auto;
   font-size: 15px;
   position: absolute;
-  top: 78%;
+  top: 55%;
   margin-left: 40px;
   background-color: rgb(97 97 97 / 50%);
   opacity: 0;
@@ -281,7 +288,7 @@
   flex-direction: row;
   gap: 8px;
   position: absolute;
-  top: 82.5%;
+  top: 65%;
   margin-left: 40px;
   opacity: 0;
   transition: 0.8s all ease-in-out;
@@ -307,4 +314,15 @@
 .movie-list-item:hover .movie-genre-hover,
 .movie-list-item:hover .button-container {
   opacity: 1;
+}
+
+.arrow {
+  font-size: 120px;
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  transform: translate(-20px, 0px);
+  color: lightgray;
+  opacity: 0.5;
+  cursor: pointer;
 }
