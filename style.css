@@ -150,6 +150,7 @@
   background-color: #141414;
   min-height: 100vh;
   color: #f2ebeb;
+  overflow: hidden;
 }
 
 .featured-movies {
@@ -216,7 +217,7 @@
 }
 .wrapper {
   position: relative;
-  transform: translateX(0px);
+
   overflow: hidden;
 }
 
@@ -225,6 +226,7 @@
   flex-direction: row;
   gap: 30px;
   height: 350px;
+  transform: translateX(0px);
   transition: 1s all ease-in-out;
 }
 
@@ -316,12 +318,22 @@
   opacity: 1;
 }
 
-.arrow {
+.right {
   font-size: 120px;
   position: absolute;
   top: 60px;
   right: 0px;
   transform: translate(-20px, 0px);
+  color: lightgray;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.left {
+  font-size: 120px;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  transform: translate(10px, 0px);
   color: lightgray;
   opacity: 0.5;
   cursor: pointer;
