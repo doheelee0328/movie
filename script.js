@@ -1,17 +1,26 @@
 const arrows = document.querySelectorAll('.right')
 const leftArrows = document.querySelectorAll('.left')
 const movieList = document.querySelectorAll('.movie-list')
+let isAnimating = false
 
 // Click for right arrow
 arrows.forEach((arrow, i) => {
   const movieItems = movieList[i].querySelectorAll('img').length
   let clickRightCounter = 0
   arrow.addEventListener('click', () => {
+    if (isAnimating) return // check if animation is in progress
+    isAnimating = true
+
     clickRightCounter++
-    if (movieItems - (3 + clickRightCounter) > 0) {
+    if (movieItems - (4 + clickRightCounter) >= 0) {
       movieList[i].style.transform = `translateX(${
         movieList[i].computedStyleMap().get('transform')[0].x.value - 300
       }px)`
+      movieList[i].addEventListener('transitionend', () => {
+        isAnimating = false // set flag to false when animation is complete
+      })
+    } else {
+      clickRightCounter = 0
     }
   })
 })
