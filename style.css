@@ -236,11 +236,12 @@
 }
 
 .movie-image {
-  width: 200px;
+  width: 222px;
   height: 270px;
   cursor: pointer;
   object-fit: cover;
   transition: 1.5s all ease-in-out;
+  object-fit: contain;
 }
 
 .movie-list-item:hover .movie-image {
@@ -323,7 +324,7 @@
   opacity: 1;
 }
 
-.right {
+.arrow {
   font-size: 120px;
   position: absolute;
   top: 60px;
@@ -333,17 +334,22 @@
   opacity: 0.5;
   cursor: pointer;
 }
-.left {
-  font-size: 120px;
-  position: absolute;
-  top: 60px;
-  left: 0px;
-  transform: translate(10px, 0px);
-  color: lightgray;
-  opacity: 0.5;
-  cursor: pointer;
+
+/* Bottom featured movies*/
+.bottom-container {
+  padding-top: 5%;
+  width: 100%;
+  display: flex;
+}
+.right {
+  width: 50%;
+  height: 500px;
 }
 
+.left {
+  width: 50%;
+  height: 500px;
+}
 /* Toggle */
 
 .container.active {
@@ -380,9 +386,6 @@
   background-color: white;
   transform: translateX(-18px);
 }
-.right.active {
-  color: black;
-}
-.left.active {
+.arrow.active {
   color: black;
 }
