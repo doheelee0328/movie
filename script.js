@@ -34,3 +34,23 @@ toggleBall.addEventListener('click', () => {
 })
 
 // hover effect for 2 images
+
+const contentLeft = document.querySelector('.contentLeft')
+const contentRight = document.querySelector('.contentRight')
+const left = document.querySelector('.left')
+const right = document.querySelector('.right')
+
+left.addEventListener('mouseenter', () => {
+  contentLeft.classList.add('active')
+})
+left.addEventListener('mouseleave', () => {
+  contentLeft.classList.remove('active')
+})
+
+right.addEventListener('mouseenter', () => {
+  contentRight.classList.add('active')
+})
+
+right.addEventListener('mouseleave', () => {
+  contentRight.classList.remove('active')
+})

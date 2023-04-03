@@ -338,17 +338,24 @@
 /* Bottom featured movies*/
 .bottom-container {
   padding-top: 5%;
-  width: 100%;
   display: flex;
+  flex-direction: row;
+  position: relative;
+  cursor: pointer;
 }
 .right {
   width: 50%;
   height: 500px;
+  transition: 2s ease-in-out;
+  position: absolute;
+  right: 0;
+  transform: translateX(0);
 }
 
 .left {
   width: 50%;
   height: 500px;
+  transition: 2s ease-in-out;
 }
 /* Toggle */
 
@@ -388,4 +395,15 @@
 }
 .arrow.active {
   color: black;
+}
+
+.contentLeft.active {
+  width: 80%;
+  z-index: 10;
+}
+
+.contentRight.active {
+  width: 80%;
+
+  transform: translateX(-20px);
 }
