@@ -16,6 +16,7 @@ arrows.forEach((arrow, i) => {
       clickCounter = 0 // to reset
     }
   })
+  // put 2 more movies
 })
 
 // toggle for the dark/light mode
@@ -35,22 +36,37 @@ toggleBall.addEventListener('click', () => {
 
 // hover effect for 2 images
 
-const contentLeft = document.querySelector('.contentLeft')
-const contentRight = document.querySelector('.contentRight')
-const left = document.querySelector('.left')
-const right = document.querySelector('.right')
+const left = document.querySelectorAll('.left, .bottom-content-left')
+const right = document.querySelectorAll('.right, .bottom-content-right')
+const imageLeft = document.querySelector('.left')
+const imageRight = document.querySelector('.right')
+const contentLeft = document.querySelector('.bottom-content-left')
+const contentRight = document.querySelector('.bottom-content-right')
 
-left.addEventListener('mouseenter', () => {
-  contentLeft.classList.add('active')
-})
-left.addEventListener('mouseleave', () => {
-  contentLeft.classList.remove('active')
-})
-
-right.addEventListener('mouseenter', () => {
-  contentRight.classList.add('active')
+left.forEach((item) => {
+  item.addEventListener('mouseenter', () => {
+    imageLeft.classList.add('active')
+    contentLeft.classList.add('active')
+  })
 })
 
-right.addEventListener('mouseleave', () => {
-  contentRight.classList.remove('active')
+left.forEach((item) => {
+  item.addEventListener('mouseleave', () => {
+    imageLeft.classList.remove('active')
+    contentLeft.classList.remove('active')
+  })
+})
+
+right.forEach((item) => {
+  item.addEventListener('mouseenter', () => {
+    imageRight.classList.add('active')
+    contentRight.classList.add('active')
+  })
+})
+
+right.forEach((item) => {
+  item.addEventListener('mouseleave', () => {
+    imageRight.classList.remove('active')
+    contentRight.classList.remove('active')
+  })
 })

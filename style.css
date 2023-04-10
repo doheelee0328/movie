@@ -337,14 +337,19 @@
 
 /* Bottom featured movies*/
 .bottom-container {
-  padding-top: 5%;
+  padding-top: 2%;
   display: flex;
   flex-direction: row;
-  position: relative;
   cursor: pointer;
+  width: 100%;
+  height: 80%;
+  position: relative;
+  padding-left: 1000px;
+  margin-bottom: 200px;
 }
+
 .right {
-  width: 50%;
+  width: 45%;
   height: 500px;
   transition: 2s ease-in-out;
   position: absolute;
@@ -353,10 +358,57 @@
 }
 
 .left {
-  width: 50%;
+  width: 45%;
   height: 500px;
   transition: 2s ease-in-out;
+  position: absolute;
+  left: 0;
+  transform: translateX(0);
+  margin-left: 200px;
 }
+
+.bottom-content-left {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 50;
+  margin-left: -850px;
+  padding-left: 100px;
+  opacity: 0;
+  transition: 1s ease-in-out;
+}
+
+.left-title,
+.right-title {
+  font-size: 50px;
+}
+
+.left-genre,
+.right-genre {
+  font-size: 20px;
+}
+
+.left-featured-desc {
+  font-size: 18px;
+  width: 400px;
+}
+.right-featured-desc {
+  width: 400px;
+  font-size: 18px;
+}
+.bottom-content-right {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 100px;
+  padding-left: 100px;
+  z-index: 50;
+  opacity: 0;
+  transition: 1s ease-in-out;
+}
+
 /* Toggle */
 
 .container.active {
@@ -397,12 +449,23 @@
   color: black;
 }
 
-.contentLeft.active {
+.left.active {
   width: 80%;
-  z-index: 10;
+  transform: translateX(5px);
+  z-index: 20;
+  opacity: 0.5;
 }
 
-.contentRight.active {
+.right.active {
   width: 80%;
-  transform: translateX(-20px);
+  transform: translateX(-5px);
+  opacity: 0.5;
+}
+
+.bottom-content-left.active {
+  opacity: 1;
+}
+
+.bottom-content-right.active {
+  opacity: 1;
 }
