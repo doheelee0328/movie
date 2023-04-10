@@ -349,15 +349,25 @@
 }
 
 .right {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
+    url('./images/mulan.jpeg');
   width: 45%;
   height: 500px;
   transition: 2s ease-in-out;
   position: absolute;
   right: 0;
   transform: translateX(0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .left {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
+    url(./images/Beauty-and-The-Beast-Facts-768x432.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 45%;
   height: 500px;
   transition: 2s ease-in-out;
@@ -443,6 +453,7 @@
 }
 .toggle-ball.active {
   background-color: white;
+
   transform: translateX(-18px);
 }
 .arrow.active {
@@ -450,15 +461,15 @@
 }
 
 .left.active {
-  width: 80%;
-  transform: translateX(5px);
+  width: 52%;
+  transform: translateX(2px);
   z-index: 20;
   opacity: 0.5;
 }
 
 .right.active {
-  width: 80%;
-  transform: translateX(-5px);
+  width: 52%;
+  transform: translateX(-2px);
   opacity: 0.5;
 }
 
