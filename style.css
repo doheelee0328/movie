@@ -215,7 +215,7 @@
 .movie-list-container {
   padding-left: 200px;
   transform: translate(15px, 100px);
-  margin-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 .most-popular {
