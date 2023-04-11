@@ -6,10 +6,11 @@ arrows.forEach((arrow, i) => {
   const movieItems = movieList[i].querySelectorAll('img').length
   let clickCounter = 0
   arrow.addEventListener('click', () => {
+    const ratio = Math.floor(window.innerWidth / 241)
     clickCounter++
-    if (movieItems - (5 + clickCounter) >= 0) {
+    if (movieItems - (5 + clickCounter) + (5 - ratio) >= 0) {
       movieList[i].style.transform = `translateX(${
-        movieList[i].computedStyleMap().get('transform')[0].x.value - 300
+        movieList[i].computedStyleMap().get('transform')[0].x.value - 310
       }px)` // moves to the right
     } else {
       movieList[i].style.transform = 'translateX(0)' // moving back to the start
