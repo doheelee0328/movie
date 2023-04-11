@@ -214,12 +214,12 @@
 
 .movie-list-container {
   padding-left: 200px;
-  transform: translate(15px);
+  transform: translate(15px, 100px);
+  margin-bottom: 100px;
 }
 
 .most-popular {
   font-size: 40px;
-
   padding-bottom: 50px;
 }
 .wrapper {
@@ -498,14 +498,13 @@
     margin-top: 8px;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 920px) {
   .movie-list-container {
-    margin-top: 280px;
+    transform: translate(0px, 300px);
   }
 }
-
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 920px) {
   .movie-list-container {
-    margin-top: 260px;
+    transform: translate(0px, 160px);
   }
 }
