@@ -464,6 +464,14 @@
   color: black;
 }
 
+.title.active {
+  color: black;
+}
+
+.featured-desc.active {
+  color: black;
+}
+
 .left.active {
   width: 52%;
   transform: translateX(2px);

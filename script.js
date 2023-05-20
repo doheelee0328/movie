@@ -22,7 +22,7 @@ arrows.forEach((arrow, i) => {
 
 // toggle for the dark/light mode
 const toggleItems =
-  '.container,.sidebar,#navbar,.menu-list,.profile-container,.search,.movies,.most-popular,.movie-title,.toggle,.arrow '
+  '.container,.sidebar,#navbar,.menu-list,.profile-container,.search,.movies,.most-popular,.movie-title,.toggle,.arrow,.featured-desc'
 
 const toggleBall = document.querySelector('.toggle-ball')
 const items = document.querySelectorAll(toggleItems)
