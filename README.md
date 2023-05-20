@@ -33,6 +33,8 @@ JavaScript
 
 <img width="1233" alt="Screenshot 2023-05-20 at 01 57 10" src="https://github.com/doheelee0328/movie/assets/112406576/4c2fc1e0-e260-42d8-b44b-6681b118d075">
 
+### When hovering on movies 
+
 <img width="1382" alt="Screenshot 2023-05-20 at 01 57 17" src="https://github.com/doheelee0328/movie/assets/112406576/9cecac8a-d913-48ba-9dff-26fdd9d813b7">
 
 ### Bottom feature where users can explore more different movies
