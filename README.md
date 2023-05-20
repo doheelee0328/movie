@@ -25,7 +25,7 @@ JavaScript
 
 ### Top feature 
 
-![Screenshot 2023-05-20 at 02 09 02](https://github.com/doheelee0328/movie/assets/112406576/906bfc50-bb85-4d3e-867b-b046ce7fb072)
+(https://github.com/doheelee0328/movie/assets/112406576/906bfc50-bb85-4d3e-867b-b046ce7fb072)
 
 
 ### Middle feature where users can explore different movies
