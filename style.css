@@ -152,7 +152,7 @@
   background-color: #141414;
   min-height: 100vh;
   color: #f2ebeb;
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
   flex-direction: column;
 }
