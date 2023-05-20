@@ -13,7 +13,7 @@ Movie Explorer is a web application that allows users to explore different movie
 - Upon launching the application, you will see a collection of movies, including new releases and popular movies.
 - Hover on movies to view its description.
 - Use the toggle switch located at the top-right corner of the application to switch between dark and light modes.
-- Use the next arrow button to browse through the available movies. Please note that this functionality is currently optimized for Google Chrome and may not work as expected in other browsers such as Safari.
+- Use the next arrow button to browse through the available movies. (!!Please note that this functionality is currently optimized for Google Chrome and may not work as expected in other browsers such as Safari.)
 
 ## Technologies Used
 
