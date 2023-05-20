@@ -387,6 +387,9 @@
   padding-left: 100px;
   opacity: 0;
   transition: 1s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .left-title,
@@ -507,4 +510,19 @@
   .movie-list-container {
     transform: translate(0px, 160px);
   }
+}
+
+.movies::-webkit-scrollbar {
+  width: 5px; /* Adjust the width of the scrollbar */
+}
+
+/* Track */
+/* .movies::-webkit-scrollbar-track {
+  background-color: #f2ebeb;
+  } */
+
+/* Handle */
+.movies::-webkit-scrollbar-thumb {
+  background-color: #349158;
+  border-radius: 10px;
 }
