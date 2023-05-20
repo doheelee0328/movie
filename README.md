@@ -1,5 +1,5 @@
 # Movie Explorer 
-https://movie-website-w58x.onrender.com/
+
 Movie Explorer is a web application that allows users to explore different movies, including new releases and popular movies. Users can also read movie descriptions and toggle between dark and light modes for a personalized viewing experience
 
 ## Features
@@ -25,7 +25,8 @@ JavaScript
 
 ### Top feature 
 
-(https://github.com/doheelee0328/movie/assets/112406576/906bfc50-bb85-4d3e-867b-b046ce7fb072)
+![Screenshot 2023-05-20 at 02 09 02](https://github.com/doheelee0328/movie/assets/112406576/53e9e61b-4c6a-4a41-8f43-f277130a808a)
+
 
 
 ### Middle feature where users can explore different movies
