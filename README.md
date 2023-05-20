@@ -11,7 +11,6 @@ Movie Explorer is a web application that allows users to explore different movie
 ## Usage
 
 - Upon launching the application, you will see a collection of movies, including new releases and popular movies.
-- Click on the next arrow to browse through the available movies.
 - Hover on movies to view its description.
 - Use the toggle switch located at the top-right corner of the application to switch between dark and light modes.
 
@@ -33,6 +32,7 @@ JavaScript
 
 <img width="1233" alt="Screenshot 2023-05-20 at 01 57 10" src="https://github.com/doheelee0328/movie/assets/112406576/4c2fc1e0-e260-42d8-b44b-6681b118d075">
 
+### When users hover the movies
 
 <img width="1382" alt="Screenshot 2023-05-20 at 01 57 17" src="https://github.com/doheelee0328/movie/assets/112406576/9cecac8a-d913-48ba-9dff-26fdd9d813b7">
 
