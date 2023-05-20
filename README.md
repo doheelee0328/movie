@@ -26,7 +26,8 @@ JavaScript
 
 ### Top feature 
 
-![Screenshot 2023-05-20 at 01 48 53](https://github.com/doheelee0328/movie/assets/112406576/b97000a1-789c-48d3-a4b1-1e365f1eddff)
+![Screenshot 2023-05-20 at 02 09 02](https://github.com/doheelee0328/movie/assets/112406576/906bfc50-bb85-4d3e-867b-b046ce7fb072)
+
 
 ### Middle feature where users can explore different movies
 
@@ -38,6 +39,6 @@ JavaScript
 
 <img width="1308" alt="Screenshot 2023-05-20 at 01 57 33" src="https://github.com/doheelee0328/movie/assets/112406576/c9c34afc-aec0-4a6a-8220-61ec60e4ee6e">
 
-### Light Mode version 
+### Light Mode Version of the Website
 
 <img width="1411" alt="Screenshot 2023-05-20 at 01 57 44" src="https://github.com/doheelee0328/movie/assets/112406576/1ba3c3ef-6685-4a63-8f8d-f269f5f50b6f">
